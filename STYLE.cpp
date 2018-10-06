@@ -5,8 +5,10 @@
  *
  * This source file is part of Wissen.
  * Consequently, it is licensed under the GNU GPLv3.
- * Note: The data is in the US-style. (Month first)
+ * See the LICENSE file for more details.
  */
+
+/* Note: The date is in the US-style. (Month first) */
 
 /*
  * This file documents the style guidelines to be used for this project.
