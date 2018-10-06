@@ -1,0 +1,15 @@
+#+TITLE: TODO, in a theoretically chronological order
+
+* TODO Write a TCP server base
+  Provide an abstract interface, but use BSD Sockets + WinSock.
+  Ensure it works on Windows with WinSock.
+* TODO Develop simple Web Server framework
+* TODO Hook browser in, ensure requests are parsed and understood properly.
+* TODO Research how the candidate transports work
+* TODO Abstract routing framework and transport API
+* TODO Develop routing backend
+* TODO Develop local IPC transport for UNIX and possibly Windows
+* TODO Deserialize and run test scenarios using the above transport.
+* TODO TEST
+* TODO Use the extant Linux Bluetooth API to use bluetooth as a transport.
+* TODO Test it on real hardware!
