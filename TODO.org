@@ -7,6 +7,21 @@
 * TODO Hook browser in, ensure requests are parsed and understood properly.
 * TODO Research how the candidate transports work
 * TODO Abstract routing framework and transport API
+  We may require a cryptographic scheme for signing updates to files.
+
+  There is a record of known services, stored in memory and in a file
+  These services have some associated metadata.
+  1. URL assignment
+  2. Weight and associated information
+  3. Routing information caches
+  4. The cryptographic identity of the publisher of the resource.
+  5. The last seen version number of the resource (so updates are possible).
+  6. A hash of the data.
+
+  The files kept in the distributed store have some metadata distributed with them.
+  1. A signature from the publisher of the data.
+  2. A version number. (If newer, take it. If older, notify who sent this to you.)
+  3. A hash of the data. This is what is actually signed/checked, for performance.
 * TODO Develop routing backend
 * TODO Develop local IPC transport for UNIX and possibly Windows
 * TODO Deserialize and run test scenarios using the above transport.
