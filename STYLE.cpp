@@ -112,3 +112,12 @@ void function(...)
 /* Code/definitions */
 
 #endif /* HEADER_NAME_HPP */
+
+/*
+ * Function names follow the patterns of the STL.
+ *
+ * The are snake_case_names.
+ * Additionally, one can use short namespace names for
+ *  different logical parts in the code.
+ * (For example: graph:: or http::)
+ */
